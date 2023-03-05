@@ -1,0 +1,11 @@
+@use "sass:math";
+
+@function PxToRem($px) {
+  @return #{math.div($px, 16)}rem;
+}
+
+@function ChangeBase($px, $pxd) {
+  @return #{math.div($px*$pxd, 16)}rem;
+}
+
+

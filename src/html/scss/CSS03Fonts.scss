@@ -1,0 +1,28 @@
+@font-face {
+  font-family: font-primary;
+  src: url('/src/html/assets/fonts/font-primary/Ample\ Soft\ Pro.otf');
+}
+
+@font-face {
+  font-family: font-primary-bold;
+  src: url('/src/html/assets/fonts/font-primary/font-primary-bold.otf');
+}
+
+@font-face {
+  font-family: font-secundary;
+  src: url('/src/html/assets/fonts/Nuvo/font-secundary.otf');
+}
+
+@font-face {
+  font-family: font-secundary-bold;
+  src: url('/src/html/assets/fonts/Nuvo/font-secundary-bold.otf');
+}
+
+:root {
+
+  --font-family-1: font-primary;
+  --font-family-2: font-primary-bold;
+  --font-family-3: font-secundary;
+  --font-family-4: font-secundary-bold;
+  
+}
